@@ -42,7 +42,7 @@ nodes:
   image: kindest/node:v1.31.2
 ```
 Create the cluster using the configuration file:
-
+sudo apt update && sudo apt install docker.io
 ```bash
 
 kind create cluster --config kind-cluster-config.yaml --name my-kind-cluster
