@@ -45,10 +45,11 @@ Create the cluster using the configuration file:
 ```bash
 sudo apt update && sudo apt install docker.io
 ```
+```bash
 kind create cluster --config kind-cluster-config.yaml --name my-kind-cluster
 ```
 Verify the cluster:
-
+```bash
 kubectl get nodes
 kubectl cluster-info
 ```
